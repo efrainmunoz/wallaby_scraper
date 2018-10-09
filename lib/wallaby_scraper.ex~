@@ -1,0 +1,18 @@
+defmodule WallabyScraper do
+  @moduledoc """
+  Documentation for WallabyScraper.
+  """
+
+  @doc """
+  Hello world.
+
+  ## Examples
+
+      iex> WallabyScraper.hello()
+      :world
+
+  """
+  def hello do
+    :world
+  end
+end
