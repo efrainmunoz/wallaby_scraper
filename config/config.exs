@@ -21,8 +21,8 @@ use Mix.Config
 #     config :logger, level: :info
 #
 
-config :wallaby, phantomjs_args: "--ssl-protocol=TLSv1",
-  js_errors: false
+config :wallaby, js_errors: false
+config :wallaby, pool_size: 25
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
